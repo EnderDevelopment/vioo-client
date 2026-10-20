@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "viooclient",
+  "version": "1.0.0",
+  "name": "ViooClient",
+  "description": "A complete client-side Minecraft mod",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/viooclient"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.viooclient.ViooClient"
+    ]
+  },
+  "mixins": [
+    "viooclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
